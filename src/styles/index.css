@@ -1,0 +1,33 @@
+* {
+	box-sizing: border-box;
+}
+
+html {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	margin: 0.5rem;
+	padding: 0;
+}
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: stretch;
+	margin-left: -0.5rem;
+	flex-direction: row;
+}
+
+.cell {
+	display: flex;
+	flex: 0 0 50%;
+	padding-left: 0.5rem;
+}
+
+textarea {
+	font-family: Consolas, Monaco, monospace;
+	width: 100%;
+	height: calc(100vh - 1rem);
+}

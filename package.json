@@ -1,0 +1,25 @@
+{
+  "name": "jsx-to-rjs",
+  "version": "0.0.0",
+  "description": "Convert JSX to react-json-schema JSON format",
+  "scripts": {
+    "start": "poi",
+    "build": "poi build",
+    "prettify": "prettier '{src/**/*.{js,jsx},poi.config.js}' --write"
+  },
+  "repository": "https://github.com/mmiller42/jsx-to-rjs.git",
+  "author": "Matt Miller <me@mmiller.me>",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "@babel/standalone": "^7.0.0-beta.44",
+    "babel-preset-react": "^6.24.1",
+    "lodash.omit": "^4.5.0",
+    "lodash.uniq": "^4.5.0",
+    "poi": "^9.6.13",
+    "poi-preset-react": "^9.2.1",
+    "prettier": "^1.11.1",
+    "react": "^16.3.1",
+    "react-dom": "^16.3.1"
+  }
+}
